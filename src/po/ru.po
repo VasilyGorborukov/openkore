@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: OpenKore\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-03 15:28-0300\n"
-"PO-Revision-Date: 2015-11-23 14:20+0300\n"
+"PO-Revision-Date: 2019-01-05 10:35+0100\n"
 "Last-Translator: ya4ept <ya4ept@ya.ru>\n"
 "Language-Team: ya4ept <ya4ept@ya.ru>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: T;TF\n"
 "X-Poedit-Basepath: .\n"
@@ -141,24 +141,23 @@ msgstr ""
 
 #: ../functions.pl:392
 msgid "Yes, compile now."
-msgstr ""
+msgstr "Да, скомпилировать сейчас же."
 
 #: ../functions.pl:392
-#, fuzzy
 msgid "No, don't compile it."
-msgstr "Нет, не удалять"
+msgstr "Нет, не компилировать."
 
 #: ../functions.pl:393
 msgid "Compile portals?"
-msgstr ""
+msgstr "Скомпилировать порталы?"
 
 #: ../functions.pl:395
 msgid "compiling portals"
-msgstr ""
+msgstr "компилирую порталы"
 
 #: ../functions.pl:398
 msgid "skipping compile"
-msgstr ""
+msgstr "пропускаю компиляцию"
 
 #: ../functions.pl:401
 msgid ""
@@ -219,9 +218,9 @@ msgstr "Смена конфигурационного файла (с \"%s\" на
 
 #. Translation Comment: Interface Title with character status
 #: ../functions.pl:909
-#, fuzzy, perl-format
+#, perl-format
 msgid "%s B%s (%s), J%s (%s) : w%s%s [%s] - %s"
-msgstr "%s Б%s (%s), П%s (%s) : в%s%s - %s"
+msgstr "%s Б%s (%s), П%s (%s) : в%s%s [%s] - %s"
 
 #. Translation Comment: Interface Title
 #: ../functions.pl:916
@@ -621,19 +620,16 @@ msgid "Cart inventory is not available.\n"
 msgstr "Инвентарь телеги недоступен.\n"
 
 #: ../Commands.pm:878
-#, fuzzy
 msgid "Usage: cart desc <cart item #>\n"
-msgstr "Используйте: cart change <1-5>\n"
+msgstr "Используйте: cart desc <номер предмета в телеге>\n"
 
 #: ../Commands.pm:888
-#, fuzzy
 msgid "Usage: cart add <inventory item> <amount>\n"
-msgstr "Используйте: aua (<№ предмета>|<имя предмета>) <количество>\n"
+msgstr "Используйте: cart add <номер предмета в инвентаре> <количество\n"
 
 #: ../Commands.pm:894
-#, fuzzy
 msgid "Usage: cart get <cart item> <amount>\n"
-msgstr "Используйте: aua (<№ предмета>|<имя предмета>) <количество>\n"
+msgstr "Используйте: cart get <предмет в телеге> <количество>\n"
 
 #: ../Commands.pm:898
 msgid "Trying to released the cart...\n"
@@ -719,12 +715,12 @@ msgstr ""
 "Вместительность: %d/%d  Вес: %d/%d\n"
 
 #: ../Commands.pm:1013 ../Commands.pm:4776
-#, fuzzy, perl-format
+#, perl-format
 msgid "Inventory item '%s' does not exist.\n"
-msgstr "Предмет %s отсутствует в инвентаре.\n"
+msgstr "Предмет '%s' отсутствует в инвентаре.\n"
 
 #: ../Commands.pm:1032 ../Commands.pm:4800
-#, fuzzy, perl-format
+#, perl-format
 msgid "Cart item '%s' does not exist.\n"
 msgstr "Предмет '%s' отсутствует в телеге.\n"
 
@@ -739,40 +735,41 @@ msgid "Cash shop is not open\n"
 msgstr "Не получилось открыть торговую лавку.\n"
 
 #: ../Commands.pm:1065
-#, fuzzy
 msgid "Please use 'cash open' first\n"
-msgstr "Пожалуйста, экипируйте сначала стрелы.\n"
+msgstr "Сначала скомандуйте 'cash open'.\n"
 
 #: ../Commands.pm:1071
-#, fuzzy
 msgid ""
 "Syntax Error in function 'cash buy' (Cash shop)\n"
 "Usage: cash buy <item> [<amount>] [<kafra shop points>]\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cash' (Cash shop)\n"
-"Используйте: cash <buy|points>\n"
+"Синтаксическая ошибка в консольной команде 'cash buy' (Cash shop)\n"
+"Используйте: cash buy <предмет> [<количество>] [<kafra shop points>]\n"
 
 #: ../Commands.pm:1081
 msgid ""
 "Error in function 'cash buy': invalid item name or tables needs to be "
 "updated \n"
 msgstr ""
+"Ошибка в функции 'cash buy': неправильное название предмета или таблицы "
+"устарели и их надо обновить.\n"
 
 #: ../Commands.pm:1101
 #, perl-format
 msgid ""
 "You don't have that many kafra shop points (Requested: %d, Available: %d)"
-msgstr ""
+msgstr "Вам не хватает очков Kafra-Shop (надо %d, а в наличии только %d)."
 
 #: ../Commands.pm:1109
-#, perl-format
+#, fuzzy, perl-format
 msgid "Not enough cash to buy item %s x %d (%sC), we have %sC\n"
 msgstr ""
+"Не хватает cash, чтобы купить предмет %s x %d (%sC), в наличии только %sC\n"
 
 #: ../Commands.pm:1116
-#, perl-format
+#, fuzzy, perl-format
 msgid "Buying %s from cash shop \n"
-msgstr ""
+msgstr "Покупаем %s в cash shop\n"
 
 #: ../Commands.pm:1123
 #, perl-format
@@ -831,13 +828,12 @@ msgstr ""
 "\n"
 
 #: ../Commands.pm:1161
-#, fuzzy
 msgid ""
 "Syntax Error in function 'cash' (Cash shop)\n"
 "Usage: cash <open|close|buy|points|list>\n"
 msgstr ""
 "Синтаксическая ошибка в консольной команде 'cash' (Cash shop)\n"
-"Используйте: cash <buy|points|list>\n"
+"Используйте: cash <open|close|buy|points|list>\n"
 
 #: ../Commands.pm:1188
 #, perl-format
@@ -850,7 +846,7 @@ msgstr ""
 
 #: ../Commands.pm:1197
 msgid "Chat log cleared.\n"
-msgstr "Лог чата очищен.\n"
+msgstr "Журнал сообщений очищен.\n"
 
 #: ../Commands.pm:1217
 msgid ""
@@ -1021,24 +1017,23 @@ msgid "Buying shop closed.\n"
 msgstr "Торговая лавка закрыта.\n"
 
 #: ../Commands.pm:1440
-#, fuzzy
 msgid "Syntax Error in function 'conf' (Change a Configuration Key)\n"
 msgstr ""
 "Синтаксическая ошибка в консольной команде 'conf' (параметры конфига)\n"
-"Используйте: conf <параметр> [<значение>|пусто]\n"
 
 #: ../Commands.pm:1441
 msgid "Usage: conf [-f] <variable> [<value>|none]\n"
-msgstr ""
+msgstr "Используйте: conf [-f] <параметр> [<величина>|ничего]\n"
 
 #: ../Commands.pm:1442
 msgid ""
 "  -f  force variable to be set, even if it does not already exist in config."
 "txt\n"
 msgstr ""
+"-f нужен для принудительного создания нового параметра конфига в config.txt\n"
 
 #: ../Commands.pm:1448
-#, fuzzy, perl-format
+#, perl-format
 msgid "Config variables matching %s do not exist\n"
 msgstr "Параметр %s отсутствует в конфиге config.txt.\n"
 
@@ -1090,7 +1085,7 @@ msgstr ""
 #: ../Commands.pm:1519
 #, perl-format
 msgid "Unknown player [%s]. Player not nearby?\n"
-msgstr ""
+msgstr "Нет такого игрока [%s]. Может быть он далеко ушел?\n"
 
 #: ../Commands.pm:1526
 msgid ""
@@ -1493,12 +1488,12 @@ msgstr "Ошибка: слуга не обнаружен.\n"
 #: ../Commands.pm:2162
 #, perl-format
 msgid "Homunculus is in rest, use skills '%s' (ss %d).\n"
-msgstr ""
+msgstr "Гомункул отдыхает, используйте умение '%s' (ss %d).\n"
 
 #: ../Commands.pm:2166
 #, perl-format
 msgid "Homunculus is dead, use skills '%s' (ss %d).\n"
-msgstr ""
+msgstr "Гомункул погиб, используйте умение '%s' (ss %d).\n"
 
 #: ../Commands.pm:2173 ../Interface/Wx.pm:680
 msgid "Exp: "
@@ -1514,7 +1509,7 @@ msgstr "Любовь:"
 
 #: ../Commands.pm:2186
 msgid "Faith:"
-msgstr ""
+msgstr "Вера:"
 
 #: ../Commands.pm:2191 ../Commands.pm:2192 ../Commands.pm:2193
 #: ../Commands.pm:2194 ../Commands.pm:2195 ../Commands.pm:2196
