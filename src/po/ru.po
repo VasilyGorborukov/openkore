@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenKore\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-03 15:28-0300\n"
-"PO-Revision-Date: 2019-01-05 10:35+0100\n"
+"PO-Revision-Date: 2019-01-05 16:52+0100\n"
 "Last-Translator: ya4ept <ya4ept@ya.ru>\n"
 "Language-Team: ya4ept <ya4ept@ya.ru>\n"
 "Language: ru_RU\n"
@@ -232,7 +232,7 @@ msgstr "%sНе подключен - %s"
 #: ../functions.pl:919
 #, perl-format
 msgid "%sConnecting - %s"
-msgstr "%sПодключение - %s "
+msgstr "%sПодключение - %s"
 
 #: ../Actor.pm:370
 msgid "Your "
@@ -301,7 +301,7 @@ msgstr "Очередь ИИ очищена.\n"
 
 #: ../Commands.pm:495
 msgid " AI Sequence "
-msgstr "Очередь ИИ."
+msgstr " Очередь ИИ "
 
 #: ../Commands.pm:510
 msgid "AI is already set to auto mode\n"
@@ -2201,18 +2201,17 @@ msgstr ""
 "Используйте: nl [<№ неписи>]\n"
 
 #: ../Commands.pm:3508
-#, fuzzy
 msgid "You must be logged in the game to use this command\n"
-msgstr "Вы должны войти в игру, чтобы использовать консольную команду '%s'\n"
+msgstr ""
+"Вы должны войти в игру, чтобы использовать данную консольную команду.\n"
 
 #: ../Commands.pm:3510
-#, fuzzy
 msgid ""
 "Error in function 'party' (Party Functions)\n"
 "Party info not available yet\n"
 msgstr ""
 "Ошибка в консольной команде 'party' (пати)\n"
-"Нельзя вывести членов пати - вы не в пати.\n"
+"Информация о пати ещё не доступна.\n"
 
 #: ../Commands.pm:3515
 msgid ""
@@ -2240,29 +2239,27 @@ msgstr ""
 "Невозможно принять/отвергнуть приглашение, ибо оно отсутствует.\n"
 
 #: ../Commands.pm:3536
-#, fuzzy
 msgid ""
 "Error in function 'party' (Party Functions)\n"
 "You're not in a party.\n"
 msgstr ""
 "Ошибка в консольной команде 'party' (пати)\n"
-"Нельзя вывести членов пати - вы не в пати.\n"
+"Вы не в пати.\n"
 
 #: ../Commands.pm:3540
-#, fuzzy
 msgid ""
 "Error in function 'party' (Party Functions)\n"
 "You're already in a party.\n"
 msgstr ""
 "Ошибка в консольной команде 'party' (пати)\n"
-"Нельзя вывести членов пати - вы не в пати.\n"
+"Вы уже в пати.\n"
 
 #: ../Commands.pm:3543
 msgid " Party Information "
 msgstr " Информация о Пати "
 
 #: ../Commands.pm:3544
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Party name: %s\n"
 "EXP Take: %s       Item Take: %s       Item Division: %s\n"
@@ -2270,6 +2267,7 @@ msgid ""
 "#    Name                   Map           Coord     Online  HP\n"
 msgstr ""
 "Имя Пати: %s\n"
+"Полученный опыт: %s       Предметы: %s       Разделение предметов: %s\n"
 "\n"
 "#    Имя                    Локация       Коорд.    В игре  HP\n"
 
@@ -2317,7 +2315,7 @@ msgstr ""
 #: ../Commands.pm:3623
 #, fuzzy, perl-format
 msgid "Party EXP is set to '%s Take'\n"
-msgstr "Набитый опыт делится поровну между всеми в пати.\n"
+msgstr "Набитый опыт делится так: '%s Take'.\n"
 
 #: ../Commands.pm:3625
 msgid ""
@@ -2331,7 +2329,7 @@ msgstr ""
 #: ../Commands.pm:3635
 #, fuzzy, perl-format
 msgid "Party item is set to '%s Take'\n"
-msgstr "Предметы в пати поднимает любой игрок.\n"
+msgstr "Поднятые предметы делятся так: '%s Take'.\n"
 
 #: ../Commands.pm:3637
 msgid ""
@@ -2358,12 +2356,11 @@ msgstr ""
 "Используйте: party shareitem <флаг>\n"
 
 #: ../Commands.pm:3661
-#, fuzzy
 msgid ""
 "Syntax Error in function 'party kick' (Kick Party Member)\n"
 "Usage: party kick <party member>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'party kick' (Исключить из пати)\n"
+"Синтаксическая ошибка в консольной команде 'party kick' (исключить из пати)\n"
 "Используйте: party kick <№ члена парти>\n"
 
 #: ../Commands.pm:3674 ../Commands.pm:3679
@@ -2376,12 +2373,11 @@ msgstr ""
 "Нельзя выгнать из пати, ибо %s не в пати.\n"
 
 #: ../Commands.pm:3687
-#, fuzzy
 msgid ""
 "Syntax Error in function 'party leader' (Change Party Leader)\n"
 "Usage: party leader <party member>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'party leader' (Смена лидера "
+"Синтаксическая ошибка в консольной команде 'party leader' (смена лидера "
 "пати)\n"
 "Используйте: party leader <№ члена пати>\n"
 
@@ -2395,15 +2391,14 @@ msgstr ""
 "Нельзя сменить пати - игрок %s не в пати.\n"
 
 #: ../Commands.pm:3713
-#, fuzzy
 msgid ""
 "Syntax Error in function 'party' (Party Management)\n"
 "Usage: party [<info|create|join|request|leave|share|shareitem|sharediv|"
 "shareauto|kick|leader>]\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'party' (Управление пати)\n"
-"Используйте: party [<create|join|request|leave|share|shareitem|sharediv|kick|"
-"leader>]\n"
+"Синтаксическая ошибка в консольной команде 'party' (управление пати)\n"
+"Используйте: party [<info|create|join|request|leave|share|shareitem|sharediv|"
+"shareauto|kick|leader>]\n"
 
 #: ../Commands.pm:3724
 msgid "Your Pecopeco is active\n"
@@ -2688,9 +2683,9 @@ msgid "#    Name                                Coordinates\n"
 msgstr "#    Название                            Координаты\n"
 
 #: ../Commands.pm:4163
-#, fuzzy, perl-format
+#, perl-format
 msgid "Files '%s' or '%s' does not exist.\n"
-msgstr "Игрок %s отсутствует.\n"
+msgstr "Нет файла '%s' или '%s'.\n"
 
 #: ../Commands.pm:4167
 #, perl-format
@@ -2968,35 +2963,33 @@ msgid "Character stats information not yet available.\n"
 msgstr "Информация о статах ещё недоступна.\n"
 
 #: ../Commands.pm:4587
-#, fuzzy
 msgid "You must be logged in the game to use this command 'st add'\n"
-msgstr "Вы должны войти в игру, чтобы использовать консольную команду (%s).\n"
+msgstr ""
+"Вы должны войти в игру, чтобы использовать консольную команду 'st add'.\n"
 
 #: ../Commands.pm:4592
-#, fuzzy
 msgid ""
 "Syntax Error in function 'st add' (Add Status Point)\n"
 "Usage: st add <str | agi | vit | int | dex | luk>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'stat_add' (Увеличение статов)\n"
-"Используйте: stat_add <str | agi | vit | int | dex | luk>\n"
+"Синтаксическая ошибка в консольной команде 'st add' (увеличение статов)\n"
+"Используйте: st add <str | agi | vit | int | dex | luk>\n"
 
 #: ../Commands.pm:4596
-#, fuzzy
 msgid ""
 "Error in function 'st add' (Add Status Point)\n"
 "You cannot add more stat points than 99\n"
 msgstr ""
-"Ошибка в консольной команде 'stat_add' (увеличение статов)\n"
+"Ошибка в консольной команде 'st add' (увеличение статов)\n"
 "Вы не можете прокачать стат больше, чем на 99 пунктов.\n"
 
 #: ../Commands.pm:4600
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Error in function 'st add' (Add Status Point)\n"
 "Not enough status points to increase %s\n"
 msgstr ""
-"Ошибка в консольной команде 'stat_add' (увеличение статов)\n"
+"Ошибка в консольной команде 'st add' (увеличение статов)\n"
 "Недостаточно стат-поинтов для увеличения стата %s.\n"
 
 #: ../Commands.pm:4623 ../Misc.pm:1975
@@ -3101,18 +3094,17 @@ msgid ""
 msgstr "Нет информации о складе; склад ещё ни разу не был открыт.\n"
 
 #: ../Commands.pm:4787 ../Commands.pm:4830
-#, fuzzy
 msgid ""
 "Error in function 'storage_gettocart' (Cart Management)\n"
 "You do not have a cart.\n"
 msgstr ""
-"Ошибка в консольной команде 'cart' (управление телегой)'\n"
+"Ошибка в консольной команде 'storage_gettocart' (управление телегой)'\n"
 "У персонажа нет телеги.\n"
 
 #: ../Commands.pm:4819 ../Commands.pm:4843
-#, fuzzy, perl-format
+#, perl-format
 msgid "Storage item '%s' does not exist.\n"
-msgstr "Предмет %s отсутствует на складе.\n"
+msgstr "Предмет '%s' отсутствует на складе.\n"
 
 #: ../Commands.pm:4862
 #, perl-format
@@ -3215,33 +3207,30 @@ msgid "#  Response\n"
 msgstr "#  Вариант ответа\n"
 
 #: ../Commands.pm:4965 ../Commands.pm:5067
-#, fuzzy
 msgid ""
 "Syntax Error in function 'talk' (Talk to NPC)\n"
 "Usage: talk <NPC # | \"NPC name\" | cont | resp | num | text > [<response #>|"
 "<number #>]\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'talk' (Разговор с неписью)\n"
-"Используйте: talk <№ неписи | cont | resp | num | text | no> [<№ ответа>|"
-"<число>]\n"
+"Синтаксическая ошибка в консольной команде 'talk' (разговор с неписью)\n"
+"Используйте: talk <№ неписи | \"Имя неписи\" | cont | resp | num | text > [<"
+"№ ответа>|<число>]\n"
 
 #: ../Commands.pm:5021
-#, fuzzy
 msgid ""
 "Error in function 'talk resp' (Respond to NPC)\n"
 "You must specify a response.\n"
 msgstr ""
-"Ошибка в консольной команде 'talk text' (сказать текст)\n"
-"Вы должны написать текст.\n"
+"Ошибка в консольной команде 'talk resp' (ответить неписи)\n"
+"Вы должны написать ответ.\n"
 
 #: ../Commands.pm:5026
-#, fuzzy
 msgid ""
 "Error in function 'talk resp' (Respond to NPC)\n"
 "Wrong talk resp sintax.\n"
 msgstr ""
-"Ошибка в консольной команде 'talk resp' (выбрать вариант ответа)\n"
-"Вариант ответ %s отсутствует.\n"
+"Ошибка в консольной команде 'talk resp' (ответить неписи)\n"
+"Неправильный синтаксис команды.\n"
 
 #: ../Commands.pm:5033
 msgid ""
@@ -3449,14 +3438,13 @@ msgstr ""
 "Предмет %s отсутствует в инвентаре.\n"
 
 #: ../Commands.pm:5356
-#, fuzzy
 msgid ""
 "Syntax error in function 'sl' (Use Skill on Location)\n"
 "Usage: sl <skill #> [<x> <y>] [level]\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'sl' (Использование умения по "
+"Синтаксическая ошибка в консольной команде 'sl' (использование умения по "
 "площади)\n"
-"Используйте: sl <№ умения> <x> <y> [уровень]\n"
+"Используйте: sl <№ умения>  [<x> <y>] [уровень]\n"
 
 #: ../Commands.pm:5360
 msgid ""
@@ -3569,17 +3557,17 @@ msgstr ""
 "ID торговца неверен.\n"
 
 #: ../Commands.pm:5484
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Error in function 'vender' (Vender Shop)\n"
 "Item %s does not exist.\n"
 msgstr ""
 "Ошибка в консольной команде 'vender' (торговая лавка)\n"
-"Торговец %s отсутствует.\n"
+"Нет такого предмета: %s.\n"
 
 #: ../Commands.pm:5494
 msgid " Vender List "
-msgstr ""
+msgstr "Список торговцев"
 
 #: ../Commands.pm:5495 ../Commands.pm:5511
 msgid "#    Title                                 Coords      Owner\n"
@@ -3655,14 +3643,11 @@ msgstr "Попытка открыть варп-портал в %s (%s).\n"
 
 #: ../Commands.pm:5668 ../Network/Receive.pm:2708
 msgid " Warp Portal "
-msgstr ""
+msgstr "Варп-портал"
 
 #: ../Commands.pm:5669 ../Network/Receive.pm:2709
-#, fuzzy
 msgid "#  Place                           Map\n"
-msgstr ""
-"%s\n"
-"#   Имя                               Цена\n"
+msgstr "#   Номер                               Локация\n"
 
 #: ../Commands.pm:5679
 msgid "Attempting to cancel the warp portal\n"
@@ -3925,13 +3910,12 @@ msgid "Usage: showeq [p <index|name|partialname>] | [me <on|off>]\n"
 msgstr "Используйте: showeq [p <index|name|partialname>] | [me <on|off>]\n"
 
 #: ../Commands.pm:6084
-#, fuzzy
 msgid ""
 "Syntax error in function 'cook' (Cook food)\n"
 "Usage: cook [<list index>]\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'lookp' (смотреть на игрока)\n"
-"Используйте: lookp <№ Игрока>\n"
+"Синтаксическая ошибка в консольной команде 'cook' (приготовление еды)\n"
+"Используйте: cook [<номер из списка>]\n"
 
 #: ../Commands.pm:6087
 #, perl-format
@@ -3939,19 +3923,17 @@ msgid "Item with 'Cooking List' index: %s not found.\n"
 msgstr "Не найден предмет с индексом %s в списке 'Список блюд'.\n"
 
 #: ../Commands.pm:6102
-#, fuzzy, perl-format
+#, perl-format
 msgid "Item with 'refine' index: %s not found.\n"
-msgstr "Не найден предмет с индексом %s в списке 'Список блюд'.\n"
+msgstr "Не найден предмет с индексом %s в списке 'Заточка предметов'.\n"
 
 #: ../Commands.pm:6104
-#, fuzzy
 msgid ""
 "Error in function 'refine'\n"
 "Usage: refine <index number>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'slave rename' (переименование "
-"помошника)\n"
-"Используйте: %s rename <новое имя>\n"
+"Синтаксическая ошибка в консольной команде 'refine' (заточка предметов)\n"
+"Используйте: refine <номер из списка>\n"
 
 #: ../Commands.pm:6148
 msgid " Storage "
@@ -3969,11 +3951,11 @@ msgstr ""
 
 #: ../Commands.pm:6199
 msgid " Dead Time Record "
-msgstr ""
+msgstr "Когда персонаж погибал"
 
 #: ../Commands.pm:6206
 msgid "You have not died yet.\n"
-msgstr "Вы ещё живы.\n"
+msgstr "Персонаж ещё ни разу не пошиб.\n"
 
 #: ../Commands.pm:6217
 msgid ""
@@ -3983,113 +3965,110 @@ msgid ""
 "Usage: achieve reward achievemente_id: Request reward for the achievement of "
 "id achievemente_id\n"
 msgstr ""
+"Синтаксическая ошибка в консольной команде 'achieve'\n"
+"Используйте: achieve [<list|reward>] [<achievemente_id>]\n"
+"Чтобы вывести список всех достижений: achieve list\n"
+"Чтобы получить награду за достижение: achieve reward <id-достижения>\n"
 
 #: ../Commands.pm:6228
-#, fuzzy, perl-format
+#, perl-format
 msgid "You don't have the achievement %s.\n"
-msgstr "У вас нет умения для открытия торговой лавки.\n"
+msgstr "Данного достижения у вас нет: %s.\n"
 
 #: ../Commands.pm:6231
-#, fuzzy, perl-format
+#, perl-format
 msgid "You haven't completed the achievement %s.\n"
-msgstr "Вы завершили аукцион.\n"
+msgstr "Вы ещё не выполнили достижение: %s.\n"
 
 #: ../Commands.pm:6234
-#, fuzzy, perl-format
+#, perl-format
 msgid "You have already claimed the achievement %s reward.\n"
-msgstr "Вы завершили аукцион.\n"
+msgstr "Вы уже запросили награду за данное достижение: %s.\n"
 
 #: ../Commands.pm:6237
 #, perl-format
 msgid "Sending request for reward of achievement %s.\n"
-msgstr ""
+msgstr "Отправляю запрос на получение награды за достижение: %s.\n"
 
 #: ../Commands.pm:6308
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex read' (Read rodex mail)\n"
 "Usage: rodex read <mail id>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'reload' (Перезагузка "
-"конфигурационных файлов)\n"
-"Используйте: reload <имя|\"all\">\n"
+"Синтаксическая ошибка в консольной команде 'rodex read' (читать rodex-"
+"почту)\n"
+"Используйте: rodex read <id-письма>\n"
 
 #: ../Commands.pm:6329
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex write' (Start writting a rodex mail)\n"
 "Usage: rodex write <player name>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'party create' (Создание пати)\n"
-": party create <имя пати>\n"
+"Синтаксическая ошибка в консольной команде 'rodex write' (написать rodex-"
+"письмо)\n"
+"Используйте: rodex write <кому, т.е. имя игрока>\n"
 
 #: ../Commands.pm:6364
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex settarget' (Set target of rodex mail)\n"
 "Usage: rodex settarget <player name>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart get' (взять предмет из "
-"телеги)\n"
-"Используйте: cart get <предмет в телеге>\n"
+"Синтаксическая ошибка в консольной команде 'rodex settarget' (кому "
+"предназначено rodex-письмо)\n"
+"Используйте: rodex settarget <имя игрока>\n"
 
 #: ../Commands.pm:6405
 msgid " Rodex mail item list "
-msgstr ""
+msgstr " Список rodex-писем "
 
 #: ../Commands.pm:6449
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex settitle' (Set title of rodex mail)\n"
 "Usage: rodex settitle <title>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart get' (взять предмет из "
-"телеги)\n"
-"Используйте: cart get <предмет в телеге>\n"
+"Синтаксическая ошибка в консольной команде 'rodex settitle' (озаглавить "
+"rodex-письмо)\n"
+"Используйте: rodex settitle <заголовок письма>\n"
 
 #: ../Commands.pm:6472
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex setbody' (Set body of rodex mail)\n"
 "Usage: rodex setbody <body>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'reload' (Перезагузка "
-"конфигурационных файлов)\n"
-"Используйте: reload <имя|\"all\">\n"
+"Синтаксическая ошибка в консольной команде 'rodex setbody' (написать текст "
+"rodex-письма)\n"
+"Используйте: rodex setbody <текст письма>\n"
 
 #: ../Commands.pm:6495
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex setzeny' (Set zeny of rodex mail)\n"
 "Usage: rodex setzeny <zeny amount>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart get' (взять предмет из "
-"телеги)\n"
-"Используйте: cart get <предмет в телеге>\n"
+"Синтаксическая ошибка в консольной команде 'rodex setzeny' (вложить зени в "
+"rodex-письмо)\n"
+"Используйте: rodex setzeny <зени>\n"
 
 #: ../Commands.pm:6521
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex add' (Add item to rodex mail)\n"
 "Usage: rodex add <item>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart add' (добавить предмет в "
-"телегу)\n"
-"Используйте: cart add <предмет>\n"
+"Синтаксическая ошибка в консольной команде 'rodex add' (добавить предмет в "
+"rodex-письмо)\n"
+"Используйте: rodex add <предмет>\n"
 
 #: ../Commands.pm:6528
-#, fuzzy
 msgid "You can't add any more items to the rodex mail\n"
-msgstr "Вы не можете добавить больше предметов к сделке.\n"
+msgstr "Нельзя добавить ещё предметов к rodex-письму.\n"
 
 #: ../Commands.pm:6538
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Error in function 'rodex add' (Add item to rodex mail)\n"
 "Inventory Item %s does not exist.\n"
 msgstr ""
-"Ошибка в консольной команде 'deal add' (добавить предмет в сделку)\n"
-"Предмет %s отсутствует.\n"
+"Ошибка в консольной команде 'rodex add' (добавить предмет к rodex-письму)\n"
+"Такого предмета в инвентаре нет: %s.\n"
 
 #: ../Commands.pm:6542
 #, perl-format
@@ -4102,25 +4081,26 @@ msgid ""
 "You can't add more of Item '%s' to rodex mail because you have already added "
 "all you have of it.\n"
 msgstr ""
+"Нельзя больше добавить предмет '%s' к rodex-письму, уже вложили всё, что "
+"было.\n"
 
 #: ../Commands.pm:6571
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex remove' (Remove item from rodex mail)\n"
 "Usage: rodex remove <item>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart get' (взять предмет из "
-"телеги)\n"
-"Используйте: cart get <предмет в телеге>\n"
+"Синтаксическая ошибка в консольной команде 'rodex remove' (убрать предмет из "
+"rodex-письма)\n"
+"Используйте: rodex remove <предмет>\n"
 
 #: ../Commands.pm:6580
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Error in function 'rodex remove' (Remove item from rodex mail)\n"
 "Rodex mail Item %s does not exist.\n"
 msgstr ""
-"Ошибка в консольной команде 'cart get' (взять предмет из телеги)\n"
-"Предмет %s отсутвствует.\n"
+"Ошибка в консольной команде 'rodex remove' (убрать предмет из rodex-письма)\n"
+"Такого предмета в rodex-письме нет: %s.\n"
 
 #: ../Commands.pm:6602
 msgid ""
@@ -4128,16 +4108,17 @@ msgid ""
 "You still have to set something to send the mail (title, body, zeny or "
 "target)\n"
 msgstr ""
+"Ошибка в консольной команде 'rodex send' (отправить rodex-письмо)\n"
+"Вы что-то забыли заполнить, например заголовок, текст, зени или кому.\n"
 
 #: ../Commands.pm:6714
-#, fuzzy
 msgid ""
 "Syntax Error in function 'rodex delete' (Delete rodex mail)\n"
 "Usage: rodex delete <mail id>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'cart get' (взять предмет из "
-"телеги)\n"
-"Используйте: cart get <предмет в телеге>\n"
+"Синтаксическая ошибка в консольной команде 'rodex delete' (выбросить rodex-"
+"письмо)\n"
+"Используйте: rodex delete <id письма>\n"
 
 #: ../Commands.pm:6726
 msgid ""
@@ -4146,22 +4127,30 @@ msgid ""
 "delete|write|cancel|settarget|settitle|setbody|setzeny|add|remove|itemslist|"
 "send>]\n"
 msgstr ""
+"Синтаксическая ошибка в консольной команде 'rodex' (rodex-почта)\n"
+"Используйте: rodex [<open|close|refresh|nextpage|maillist|read|getitems|"
+"getzeny|delete|write|cancel|settarget|settitle|setbody|setzeny|add|remove|"
+"itemslist|send>]\n"
 
 #: ../Commands.pm:6740
 msgid "You are not on a sell or store npc interaction.\n"
-msgstr ""
+msgstr "В данный момент вы не торгуете с неписью.\n"
 
 #: ../Commands.pm:6761
 msgid "This command only available after using 'Change Material' skill!\n"
 msgstr ""
+"Данная команда доступна только после использования умения 'Change "
+"Material'.\n"
 
 #: ../Commands.pm:6767
 msgid "This command only available after using 'Four Spirit Analysis' skill!\n"
 msgstr ""
+"Данная команда доступна только после использования умения 'Four Spirit "
+"Analysis'.\n"
 
 #: ../Commands.pm:6772 ../Commands.pm:6929
 msgid "Invalid usage!\n"
-msgstr ""
+msgstr "Не сработало!\n"
 
 #: ../Commands.pm:6778
 #, perl-format
@@ -4179,35 +4168,34 @@ msgid "Equipped item was selected %s (%d)!\n"
 msgstr ""
 
 #: ../Commands.pm:6805 ../Commands.pm:6861 ../Commands.pm:6883
-#, fuzzy, perl-format
+#, perl-format
 msgid "Item in index '%d' is not exists.\n"
-msgstr "Предмет %s отсутствует в инвентаре.\n"
+msgstr "Предмет с номером %d отсутствует.\n"
 
 #: ../Commands.pm:6810
 #, perl-format
 msgid "Number of selected items for %s: %d\n"
-msgstr ""
+msgstr "Количество предметов, взятых для %s: %d.\n"
 
 #: ../Commands.pm:6811
-#, fuzzy
 msgid "======== Exchange Item List ========\n"
-msgstr "====== Список ковки ======\n"
+msgstr "====== Список предметов для обмена ======\n"
 
 #: ../Commands.pm:6818
-#, fuzzy
 msgid "No item was selected.\n"
-msgstr "Ничего не выброшено.\n"
+msgstr "Не выбрано ни одного предмета.\n"
 
 #: ../Commands.pm:6822
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Syntax Error in function '%s'. Usages:\n"
 "Single Item: %s <item #> <amount>\n"
 "Combination: %s <item #> <amount>,<item #> <amount>,<item #> <amount>\n"
 msgstr ""
-"Синтаксическая ошибка в консольной команде 'buy' (покупка магазинных "
-"предметов)\n"
-"Используйте: buy <№ предмета> [<кол-во>][, <№ предмета> [<кол-во>]]...\n"
+"Синтаксическая ошибка в консольной команде '%s'. Примеры использования:\n"
+"Одиночный предмет: %s <номер предмета> <количество>\n"
+"Комбинация нескольких предметов: %s <номер предмета> <количество>,<номер "
+"предмета> <количество>,<номер предмета> <количество>\n"
 
 #: ../Commands.pm:6839
 msgid "Cannot use RefineUI yet.\n"
@@ -4218,9 +4206,9 @@ msgid "Closing Refine UI.\n"
 msgstr ""
 
 #: ../Commands.pm:6864 ../Commands.pm:6886
-#, fuzzy, perl-format
+#, perl-format
 msgid "Cannot select equipped %s (%d) item!\n"
-msgstr "Вы экипировали: %s (%d) x %s\n"
+msgstr "Выбирать экипированный предмет нельзя: %s (%d)! \n"
 
 #: ../Commands.pm:6868
 #, perl-format
@@ -4228,14 +4216,14 @@ msgid "Request info for selected item to refine: %s (%d)\n"
 msgstr ""
 
 #: ../Commands.pm:6893
-#, fuzzy, perl-format
+#, perl-format
 msgid "You don't have enough '%s' (%d) as refine material.\n"
-msgstr "У вас недостаточно зени.\n"
+msgstr "На улучшение вам недостаёт материала '%s' (%d).\n"
 
 #: ../Commands.pm:6904
-#, fuzzy, perl-format
+#, perl-format
 msgid "'%s' (%d) is not valid refine material for '%s'.\n"
-msgstr "'%s' неверный номер плагина.\n"
+msgstr "Данный материал '%s' (%d) не годится для улучшения предмета '%s'.\n"
 
 #: ../Commands.pm:6915
 #, perl-format
@@ -4245,17 +4233,18 @@ msgstr ""
 #: ../Commands.pm:6925
 #, perl-format
 msgid "Refining item: %s with material %s.\n"
-msgstr ""
+msgstr "Улучшаю предмет %s при помощи материала %s.\n"
 
 #: ../Commands.pm:6942
-#, fuzzy, perl-format
+#, perl-format
 msgid "You must be in a Real Clan to use command '%s'\n"
-msgstr "Вы должны войти в игру, чтобы использовать консольную команду '%s'\n"
+msgstr ""
+"Вы должны состоять в настоящем клане, чтобы использовать консольную команду "
+"'%s'\n"
 
 #: ../Commands.pm:6947
-#, fuzzy
 msgid " Clan Information "
-msgstr " Информация о Гильдии "
+msgstr " Информация о клане "
 
 #: ../Commands.pm:6948
 #, perl-format
@@ -4661,7 +4650,7 @@ msgstr "Запрос"
 
 #: ../Interface.pm:127
 msgid "Enter your answer: "
-msgstr "Введите Ваш ответ:"
+msgstr "Введите Ваш ответ: "
 
 #: ../Interface.pm:172
 msgid "Choice"
