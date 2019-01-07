@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: OpenKore\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-03 15:28-0300\n"
-"PO-Revision-Date: 2019-01-05 16:52+0100\n"
+"PO-Revision-Date: 2019-01-07 23:56+0100\n"
 "Last-Translator: ya4ept <ya4ept@ya.ru>\n"
 "Language-Team: ya4ept <ya4ept@ya.ru>\n"
 "Language: ru_RU\n"
@@ -8074,9 +8074,8 @@ msgid "Create Item List"
 msgstr " Список предметов "
 
 #: ../Network/Receive.pm:3708
-#, fuzzy
 msgid "You can now use the 'create' command.\n"
-msgstr "Вы можете теперь использовать консольную команду 'cook'.\n"
+msgstr "Теперь можно использовать команду 'create'.\n"
 
 #: ../Network/Receive.pm:3722
 msgid "Storage closed.\n"
@@ -8300,28 +8299,24 @@ msgid "[dist=%s] %s: %s\n"
 msgstr "[дист=%s] %s: %s\n"
 
 #: ../Network/Receive.pm:4457
-#, fuzzy
 msgid "Auto disconnecting on ServerShutDown!\n"
-msgstr "Отключение из-за получения %s уровня!\n"
+msgstr ""
 
 #: ../Network/Receive.pm:4458
-#, fuzzy
 msgid "*** Server shutting down , auto disconnect! ***\n"
-msgstr "*** Вам послали личное сообщение, авто-отключение! ***\n"
+msgstr "*** Сервер выключается, авто-отключение! ***\n"
 
 #: ../Network/Receive.pm:4461
 msgid "Server shutting down\n"
 msgstr "Сервер выключается.\n"
 
 #: ../Network/Receive.pm:4465
-#, fuzzy
 msgid "Auto disconnecting on ServerClose!\n"
-msgstr "Отключение из-за получения %s уровня!\n"
+msgstr ""
 
 #: ../Network/Receive.pm:4466
-#, fuzzy
 msgid "*** Server is closed , auto disconnect! ***\n"
-msgstr "*** Вы погибли, авто отключение! ***\n"
+msgstr "*** Сервер закрыт, авто отключение! ***\n"
 
 #: ../Network/Receive.pm:4469
 msgid "Error: Server is closed\n"
@@ -8339,9 +8334,8 @@ msgstr ""
 "%s будет закрыта."
 
 #: ../Network/Receive.pm:4475
-#, fuzzy
 msgid "*** DualLogin, auto disconnect! ***\n"
-msgstr "*** Вы погибли, авто отключение! ***\n"
+msgstr "*** Повторный заход в игру, авто отключение! ***\n"
 
 #: ../Network/Receive.pm:4478 ../Network/Receive.pm:4482
 msgid "Critical Error: Dual login prohibited - Someone trying to login!\n"
@@ -8349,9 +8343,9 @@ msgstr ""
 "Критическая ошибка: двойной вход запрещен - кто-то пытается залогиниться!\n"
 
 #: ../Network/Receive.pm:4479
-#, fuzzy, perl-format
+#, perl-format
 msgid "Reconnecting, wait %s seconds...\n"
-msgstr "Отключение через %s сек...\n"
+msgstr "Переподключение через %s сек...\n"
 
 #: ../Network/Receive.pm:4486
 msgid "Error: Out of sync with server\n"
@@ -8694,14 +8688,14 @@ msgid "Map Change: %s (%s, %s)\n"
 msgstr "Локация сменилась на: %s (%s, %s).\n"
 
 #: ../Network/Receive.pm:5220
-#, fuzzy, perl-format
+#, perl-format
 msgid "%s are no longer: %s\n"
-msgstr "%2$s сейчас играете: %s\n"
+msgstr ""
 
 #: ../Network/Receive.pm:5220
-#, fuzzy, perl-format
+#, perl-format
 msgid "%s is no longer: %s\n"
-msgstr "%s больше не в молчанке.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:5302
 msgid "Cancel Chat"
@@ -8740,9 +8734,8 @@ msgid ""
 msgstr ""
 
 #: ../Network/Receive.pm:5445
-#, fuzzy
 msgid "========= RefineUI Info =========\n"
-msgstr "====== Список ковки ======\n"
+msgstr ""
 
 #: ../Network/Receive.pm:5446
 #, perl-format
@@ -8765,10 +8758,8 @@ msgid " Possible Materials "
 msgstr ""
 
 #: ../Network/Receive.pm:5462
-#, fuzzy
 msgid "Mat_ID      %           Zeny        Material                        \n"
 msgstr ""
-"Название предмета                              Кол-во            Цена\n"
 
 #: ../Network/Receive.pm:5472
 #, perl-format
@@ -9064,19 +9055,19 @@ msgstr ""
 
 #. Translation Comment: Guild Chat
 #: ../Network/Receive.pm:6375
-#, fuzzy, perl-format
+#, perl-format
 msgid "[Clan]%s %s\n"
-msgstr "%s %s\n"
+msgstr "[Клан] %s %s\n"
 
 #: ../Network/Receive.pm:6389
-#, fuzzy, perl-format
+#, perl-format
 msgid "[Clan] You left %s\n"
-msgstr "%s - потерялся\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6398
-#, fuzzy, perl-format
+#, perl-format
 msgid "You changed Title_ID :  %s.\n"
-msgstr "Вы можете приобрести %d шт. предметов.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6405
 msgid "Pet evolution error.\n"
@@ -9095,18 +9086,16 @@ msgid "Loyal Intimacy is required to evolve.\n"
 msgstr ""
 
 #: ../Network/Receive.pm:6415
-#, fuzzy
 msgid "Pet evolution success.\n"
-msgstr "Приручение питомца удалось.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6439
 msgid "Upgrade List"
 msgstr "Список улучшения"
 
 #: ../Network/Receive.pm:6452
-#, fuzzy
 msgid "You can now use the 'refine' command.\n"
-msgstr "Вы можете теперь использовать консольную команду 'cook'.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6463
 msgid "Cooking List"
@@ -9137,9 +9126,9 @@ msgid "You failed to make a potion (ID %s)!\n"
 msgstr "Сотворение зелья закончилось неудачей (ID %s)!\n"
 
 #: ../Network/Receive.pm:6491
-#, fuzzy, perl-format
+#, perl-format
 msgid "You successfully cook a item (ID %s)!\n"
-msgstr "Зелье было удачно создано (ID %s)!\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6493
 #, perl-format
@@ -9208,32 +9197,28 @@ msgid "Search store failed. Reason #%d\n"
 msgstr ""
 
 #: ../Network/Receive.pm:6600
-#, fuzzy, perl-format
+#, perl-format
 msgid "Selected store is at (%d, %d)\n"
-msgstr "Выбран сервер: %s\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6609
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Unknown skill_msg msgid:%d skill:%d. Need to update the file msgstringtable."
 "txt (from data.grf)\n"
 msgstr ""
-"Неизвестное message_string: %s. Необходимо обновить файл msgstringtable.txt "
-"(из data.grf)\n"
 
 #: ../Network/Receive.pm:6619
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "Unknown msgid:%d paral:%d. Need to update the file msgstringtable.txt (from "
 "data.grf)\n"
 msgstr ""
-"Неизвестное message_string: %s. Необходимо обновить файл msgstringtable.txt "
-"(из data.grf)\n"
 
 #: ../Network/Receive.pm:6665
-#, fuzzy, perl-format
+#, perl-format
 msgid "Received reward for achievement %s.\n"
-msgstr "Poseidon: получены запросы от клиента %s.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6675
 #, perl-format
@@ -9262,9 +9247,8 @@ msgid "Please try PivateAirship again.\n"
 msgstr ""
 
 #: ../Network/Receive.pm:6766
-#, fuzzy
 msgid "You do not have enough Item to use PivateAirship.\n"
-msgstr "У вас не хватает денег, чтобы оплатить стоимость заявки на аукцион.\n"
+msgstr ""
 
 #: ../Network/Receive.pm:6768
 msgid "Destination map is invalid.\n"
@@ -9363,14 +9347,12 @@ msgid "You have been: unmuted by %s.\n"
 msgstr "Игровой мастер %s разблокировал Ваш чат.\n"
 
 #: ../Network/Receive.pm:6852
-#, fuzzy
 msgid "Get"
-msgstr "Питомец"
+msgstr "взять"
 
 #: ../Network/Receive.pm:6853
-#, fuzzy
 msgid "Put"
-msgstr "Питомец"
+msgstr "положить"
 
 #: ../Network/Receive.pm:6862
 #, fuzzy
@@ -9392,16 +9374,13 @@ msgid "Guild Storage empty.\n"
 msgstr " Склад "
 
 #: ../Network/Receive.pm:6881
-#, fuzzy
 msgid "You are not currently using Guild Storage. Please try later.\n"
-msgstr "Вы 5 раз неправильно ввели пароль. Пожалуйста, попробуйте позже.\n"
+msgstr "Вы же не используете сейчас склад гильдии, попробуйте позже.\n"
 
 #: ../Network/Receive.pm:6891
-#, fuzzy, perl-format
+#, perl-format
 msgid "Lost skill: %s\n"
-msgstr ""
-"Уменее: %s\n"
-"\n"
+msgstr "Уменее потеряно: %s\n"
 
 #: ../Network/Receive.pm:6940
 #, perl-format
@@ -9437,7 +9416,7 @@ msgstr ""
 
 #: ../Network/Receive.pm:7096
 msgid "The deal has failed.\n"
-msgstr ""
+msgstr "Данная сделка не удалась.\n"
 
 #: ../Network/Receive.pm:7098
 #, perl-format
@@ -9448,7 +9427,7 @@ msgstr ""
 
 #: ../Network/Receive.pm:7100
 msgid "Failed to deal because you have not enough Zeny.\n"
-msgstr ""
+msgstr "Сделка не удалась, потому что у вас не хватило зени.\n"
 
 #: ../Network/Receive.pm:7102
 #, perl-format
@@ -9457,16 +9436,16 @@ msgstr ""
 
 #: ../Network/Receive.pm:7140
 msgid "Failed to buying (insufficient zeny).\n"
-msgstr ""
+msgstr "Не получилось скупить, не хватило зенег.\n"
 
 #: ../Network/Receive.pm:7142
 msgid "Buying up complete.\n"
-msgstr ""
+msgstr "Скупка завершена.\n"
 
 #: ../Network/Receive.pm:7144
 #, perl-format
 msgid "Failed to buying (unknown error: %s).\n"
-msgstr ""
+msgstr "Не получилось купить (непонятная ошибка: %s).\n"
 
 #: ../Network/Receive.pm:7165 ../Network/Receive.pm:7172
 #, perl-format
@@ -9509,12 +9488,12 @@ msgid "Player %s doesn't want to receive messages\n"
 msgstr "Игрок %s не хочет получать сообщения.\n"
 
 #: ../Network/Receive.pm:7228
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "------------CashList (Cash Point: %-5d. Kafra Points: %-d)-------------\n"
 "#    Name                    Type               Price\n"
 msgstr ""
-"------- Список товаров (Cash Point: %-5d) ----------\n"
+"------- Список товаров (Cash Point: %-5d. Kafra Points: %-d) ----------\n"
 "#  Название              Тип                 Цена\n"
 
 #: ../Network/XKore.pm:54
@@ -9695,15 +9674,13 @@ msgstr "Игрок %s намалевал: %s по координатам (%d, %d
 
 #: ../Network/Receive/ServerType0.pm:1038
 #: ../Network/Receive/kRO/Sakexe_0.pm:967
-#, fuzzy
 msgid "Auto disconnecting on EmptyArrow!\n"
-msgstr "Дисконнект, ибо на складе кончился предмет %s!\n"
+msgstr "Выхожу из игры, кончились стрелы!\n"
 
 #: ../Network/Receive/ServerType0.pm:1039
 #: ../Network/Receive/kRO/Sakexe_0.pm:968
-#, fuzzy
 msgid "*** Your Arrows is ended, auto disconnect! ***\n"
-msgstr "*** Вы погибли, авто отключение! ***\n"
+msgstr "*** У вас кончились стрелы, авто отключение! ***\n"
 
 #: ../Network/Receive/ServerType0.pm:1043
 #: ../Network/Receive/kRO/Sakexe_0.pm:972
@@ -9974,9 +9951,9 @@ msgstr "Вы можете продать:\n"
 
 #: ../Network/Receive/ServerType0.pm:1916
 #: ../Network/Receive/kRO/Sakexe_0.pm:1894
-#, fuzzy, perl-format
+#, perl-format
 msgid "%s x %s for %sz each. \n"
-msgstr "%s %s умение %s на %s (задержка: %s мс)\n"
+msgstr "%s x %s по %s зени за шт.\n"
 
 #: ../Network/Receive/ServerType0.pm:1925
 #: ../Network/Receive/kRO/Sakexe_0.pm:1903
@@ -10276,7 +10253,7 @@ msgstr "На карте запрещено создавать чат/магаз�
 
 #: ../Network/Receive/ServerType0.pm:2645
 msgid "Need more bullet"
-msgstr ""
+msgstr "Надо больше патронов"
 
 #: ../Network/Receive/ServerType0.pm:2655
 #: ../Network/Receive/kRO/Sakexe_0.pm:2628
@@ -11038,9 +11015,9 @@ msgid "Guild member added: %s\n"
 msgstr "Новый член гильдии: %s\n"
 
 #: ../Network/Receive/ServerType0.pm:4005
-#, fuzzy, perl-format
+#, perl-format
 msgid "Monster %s has about %d%% hp left\n"
-msgstr "У монстра %s осталось %s/%s HP (%s%).\n"
+msgstr "У монстра %s осталось %d%% жизни.\n"
 
 #: ../Network/Receive/ServerType17.pm:46
 msgid ""
@@ -11071,15 +11048,16 @@ msgid "Unknown buff from Gospel: "
 msgstr "Непонятный бафф от Госпеля:"
 
 #: ../Network/Receive/kRO/Sakexe_0.pm:3676
-#, fuzzy, perl-format
+#, perl-format
 msgid "Party member %s is dead.\n"
-msgstr "Игрок мёртв.\n"
+msgstr "Сопартиец %s погиб.\n"
 
 #: ../Network/Send/kRO/RagexeRE_2010_08_03a.pm:41
 #, perl-format
 msgid ""
 "Sent buying request from cash shop for %d items using %d kafra points.\n"
 msgstr ""
+"Отправили запрос на покупку в cash shop %d шт., оплатив их %d kafra points.\n"
 
 #: ../Poseidon/EmbedServer.pm:49
 #, perl-format
@@ -11122,9 +11100,10 @@ msgid "Walking to waypoint %s: %s(%s): %s,%s\n"
 msgstr "Движение к waypointу %s: %s(%s): %s,%s\n"
 
 #: ../Task/MapRoute.pm:173
-#, fuzzy, perl-format
+#, perl-format
 msgid "Failed to teleport using NPC at %s (%s,%s).\n"
-msgstr "Невозможно поговорить с неписью на %s (%s,%s).\n"
+msgstr ""
+"Не получилось воспользоваться услугами неписи %s (%s,%s) для телепортации.\n"
 
 #: ../Task/MapRoute.pm:191
 #, perl-format
@@ -11132,11 +11111,15 @@ msgid ""
 "Failed to teleport using NPC at %s (%s,%s) after %s tries, ignoring NPC and "
 "recalculating route.\n"
 msgstr ""
+"Не получилось воспользоваться услугами неписи %s (%s,%s) для телепортации "
+"(попыток было: %s), забудем про него и пересчитаем маршрут.\n"
 
 #: ../Task/MapRoute.pm:203
 #, perl-format
 msgid "You need %sz to pay for warp service at %s (%s,%s), you have %sz.\n"
 msgstr ""
+"Надо заплатить %s зени за телепорт из %s (%s,%s), а в наличии только %s "
+"зени.\n"
 
 #: ../Task/MapRoute.pm:235
 #, perl-format
@@ -11149,14 +11132,14 @@ msgid "No LOS from %s (%s,%s) to Final Destination at (%s,%s).\n"
 msgstr "Нет прямой видимости от %s (%s,%s) до пункта назначения на (%s,%s).\n"
 
 #: ../Task/MapRoute.pm:292 ../Task/MapRoute.pm:319
-#, fuzzy, perl-format
+#, perl-format
 msgid "Unable to use portal at %s (%s,%s).\n"
-msgstr "Невозможно поговорить с неписью на %s (%s,%s).\n"
+msgstr "Невозможно воспользоваться порталом: %s (%s,%s), его тупо нет.\n"
 
 #: ../Task/MapRoute.pm:311
-#, fuzzy, perl-format
+#, perl-format
 msgid "Guessing our desired portal to be  %s (%s,%s).\n"
-msgstr "Движение в портал № %s (%s,%s)\n"
+msgstr "Предположим, что это нужный портал:  %s (%s,%s).\n"
 
 #: ../Task/MapRoute.pm:407
 #, perl-format
@@ -11213,11 +11196,13 @@ msgid "%s: Type 'talk resp #' to choose a response.\n"
 msgstr "%s: напишите 'talk resp #' для выбора варианта ответа.\n"
 
 #: ../Task/TalkNPC.pm:147
-#, fuzzy, perl-format
+#, perl-format
 msgid ""
 "%s: Type 'store' to start buying, type 'sell' to start selling or type "
 "'canceltransaction' to cancel\n"
-msgstr "%s: Введите 'store' чтобы купить, или 'sell' чтобы продать\n"
+msgstr ""
+"%s: напишите 'store' чтобы купить, или 'sell' чтобы продать, а для отмены - "
+"'canceltransaction'.\n"
 
 #: ../Task/TalkNPC.pm:150
 #, perl-format
@@ -11227,7 +11212,7 @@ msgstr "%s: напишите 'talk text <текст>' для ввода текс
 #: ../Task/TalkNPC.pm:153
 #, perl-format
 msgid "%s: Type 'cashbuy' to start buying\n"
-msgstr ""
+msgstr "%s: напишите 'cashbuy', чтобы начать скупку.\n"
 
 #: ../Task/TalkNPC.pm:323
 #, perl-format
@@ -11264,6 +11249,8 @@ msgid ""
 "NPC requires a response to be selected, but the given instructions don't "
 "match that (current step: %s)."
 msgstr ""
+"Непись требует выбрать вариант из списка, но в данный момент прописан "
+"совершенно другой код: %s."
 
 #: ../Task/TalkNPC.pm:524
 #, perl-format
@@ -11271,6 +11258,8 @@ msgid ""
 "NPC requires the next button to be pressed now, but the given instructions "
 "don't match that (current step: %s)."
 msgstr ""
+"Непись требует нажать кнопку \"далее\", но в данный момент прописан "
+"совершенно другой код: %s."
 
 #: ../Task/TalkNPC.pm:537
 #, perl-format
@@ -11278,6 +11267,8 @@ msgid ""
 "NPC requires a number to be sent now, but the given instructions don't match "
 "that (current step: %s)."
 msgstr ""
+"Непись требует ввести число, но в данный момент прописан совершенно другой "
+"код: %s."
 
 #: ../Task/TalkNPC.pm:550
 #, perl-format
@@ -11285,6 +11276,8 @@ msgid ""
 "NPC requires a text to be sent now, but the given instructions don't match "
 "that (current step: %s)."
 msgstr ""
+"Непись требует ввести текст, но в данный момент прописан совершенно другой "
+"код: %s."
 
 #: ../Task/TalkNPC.pm:578
 #, perl-format
@@ -11292,6 +11285,8 @@ msgid ""
 "This npc requires the sell, buy or cancel button to be pressed, but the "
 "given instructions don't match that (current step: %s)."
 msgstr ""
+"Непись требует нажать кнопку \"продать\", \"купить\" или \"отказаться\", но "
+"в данный момент прописан совершенно другой код: %s."
 
 #: ../Task/TalkNPC.pm:596
 #, perl-format
@@ -11304,16 +11299,17 @@ msgid ""
 "NPC requires the buy or cancel button to be pressed, but the given "
 "instructions don't match that (current step: %s)."
 msgstr ""
+"Непись требует нажать кнопку \"купить\" или \"отказаться\", но в данный "
+"момент прописан совершенно другой код: %s."
 
 #: ../Task/TalkNPC.pm:640
-#, fuzzy
 msgid "According to the given NPC instructions, a npc conversation code "
-msgstr "По идее надо выбрать вариант ответа, но это невозможно."
+msgstr "В разговоре с неписью использован код,"
 
 #: ../Task/TalkNPC.pm:641
-#, fuzzy, perl-format
+#, perl-format
 msgid "should be used (%s), but it doesn't exist."
-msgstr "Не получилось отправить письмо, ибо такого получателя не существут.\n"
+msgstr "которого нет в природе: %s, т.е. это опечатка."
 
 #: ../Task/TalkNPC.pm:744
 #, perl-format
@@ -11322,12 +11318,12 @@ msgstr "Разговор с %s завершен.\n"
 
 #: ../Task/TalkNPC.pm:818
 msgid "Talk with a hidden NPC prevented."
-msgstr ""
+msgstr "Предотвращен разговор со скрытой неписью."
 
 #: ../Task/TalkNPC.pm:869
 #, perl-format
 msgid "Invalid NPC conversation code: %s."
-msgstr ""
+msgstr "Неправильный код разговора с неписью: %s."
 
 #: ../Task/UseSkill.pm:312
 #, perl-format
@@ -11369,21 +11365,22 @@ msgstr "По идее, каст должен был завершиться, но
 #: ../Utils/Benchmark.pm:65 ../Utils/Benchmark.pm:68
 msgid "Benchmarking was not compiled on this system\n"
 msgstr ""
+"Модуль проверки производительности не был скомпилирован для данной системы.\n"
 
 #: ../Utils/TextReader.pm:85
 #, perl-format
 msgid "File [%s] cannot include itself."
-msgstr ""
+msgstr "Файл [%s] ссылается сам на себя, так делать нельзя."
 
 #: ../Utils/TextReader.pm:91
 #, perl-format
 msgid "File [%s] cannot be created: $!"
-msgstr ""
+msgstr "Файл [%s] не может быть создан: $!"
 
 #: ../Utils/TextReader.pm:94
-#, fuzzy, perl-format
+#, perl-format
 msgid "File [%s] does not exist."
-msgstr "Игрок %s отсутствует.\n"
+msgstr "Этого файла нет: [%s]."
 
 #~ msgid "Warning: unknown flag!\n"
 #~ msgstr "Внимание: неизвестный flag!\n"
